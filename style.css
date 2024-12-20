@@ -4,6 +4,13 @@ body {
     color: white;
     font-family: Arial;
 }
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 input {
     background-color: rgb(77, 77, 77);
@@ -16,6 +23,7 @@ input {
     padding-bottom: 8px;
     padding-left: 36px;
     padding-right: 36px;
+    border-radius: 8px;
 }
 
 button {

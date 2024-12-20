@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
     <form action="includes/whitelist.php" method="post">
     <input type="text" name="whitelist" placeholder="whitelist @player">
     <button type="submit">Whitelist</button>
     </form>
+    </div>
 </body>
 </html>
